@@ -22,6 +22,7 @@ body {
     color: #14281D;
     text-decoration: none;
     font-size: 1.2em;
+    font-weight: bold;
     padding: 30px 15px;
 }
 .nav a:hover {
@@ -60,11 +61,19 @@ main {
 
 main img {
   float: left;
+  width: 200px;
+  border-radius: 8px;
   margin: 0 1em 1em 0;
 }
 
 .webproject {
     background-color: #dde5f1;
+}
+
+.webproject:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 p.links {
