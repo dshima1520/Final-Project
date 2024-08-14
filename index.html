@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Final project for BATECH 189 creating a website that showcases the work done for the quarter.">
-        <title>BATECH 189 Final Project - Dean Shimabukuro</title>
+        <meta name="description" content="Home page for the final project for BATECH 189, creating a website that showcases the work done for the quarter.">
+        <title>BATECH 189 Final Project - Dean Shimabukuro - Home</title>
+        
         
         <!-- Google Web Fonts -->
         
@@ -11,12 +12,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
         <!-- Style Sheets -->
         
     <style>
         @import url(stylesheet.css);
         
-        img {
+        div img {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -31,34 +36,46 @@
 <body>
   
     <header>
-    <div class="nav">
-        <div class="name">DEAN Shimabukuro</div>
+    <nav class="nav">
+        <div class="name">Dean<strong>Shimabukuro</strong></div>
         <div>
             <a href="index.html">Home</a>
             |
             <a href="portfolio.html">Portfolio</a>
         </div>
-    </div>
+    </nav>
     
     </header>
     
     <br>
     
     <main>
+    
     <div class="image">
         <img src="Images/pexels-davideibiza-11813187.jpg" alt="Image of an Ipad on a desk displaying the outline for a web page design">
     </div>
     <div class="citation">
         <cite>Baraldi, Davide. Close-Up Shot of an Ipad. 2022. <a href="https://www.pexels.com/photo/close-up-shot-of-an-ipad-11813187/" target="_blank">Pexels.com</a></cite>
     </div>
-
-    <br>
         
-    <h1>About myself</h1>
-    <p>Short description</p>
     <br>
+      
+    <section>    
+    <h1>About myself</h1>
+    <ul>
+        <li><img src="Images/profile.jpg" alt="Profile picture of Dean" width="200" style="margin-right: 35px;margin-left: -20px"></li>
+        <li>My name is Dean Shimabukuro and I am a student in the Digital Marketing, BAS program at Bellevue College. I am also a 15-year marketing professional currently employed as a Product Marketing Manager for Microsoft, and spend my off-time when not working or studying by playing golf.</li>
+    </ul>    
+        <br>
+        <br>
+        
     <h3>Three important concepts I've learned in this class</h3>
-    <p>Lorem Ipsum</p>
+        <ol>
+        <li>Semantic HTML structure</li>
+        <li>CSS Box Model format</li>
+        <li>Floating and Positioning</li>
+        </ol>
+    </section>
     
     </main>    
    
@@ -74,11 +91,16 @@
             <li> | </li>
             <li>Dean Shimabukuro</li>
             <li> | </li>
-            <li><a href="mailto:dean.shimabukuro@bellevuecollege.edu">dean.shimabukuro@bellevuecollege.edu</a></li>
-            <li> | </li>
-            <li><cite>Background image designed by <a href="https://www.freepik.com/free-vector/abstract-background-with-squares_15276013.htm#" target="_blank">Freepik</a> <a href="https://www.freepik.com/legal/terms-of-use#nav-freepik-license" target="_blank">(license)</a></cite></li>
+            <li><a href="mailto:dean.shimabukuro@bellevuecollege.edu" target="_blank">dean.shimabukuro@bellevuecollege.edu</a></li>
         </ul>
 
+        <ul>
+            <li><cite>Background image designed by <a href="https://www.freepik.com/free-vector/abstract-background-with-squares_15276013.htm#" target="_blank">Freepik</a> <a href="https://www.freepik.com/legal/terms-of-use#nav-freepik-license" target="_blank">(license)</a></cite></li>
+        </ul>
+        
+        <ul>
+            <li><cite><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a> and <a href="https://fonts.google.com/specimen/Quicksand" target="_blank">Quicksand</a> fonts are used under <a href="https://openfontlicense.org/" target="_blank">license</a> courtesy of Google Fonts.</cite></li>
+        </ul>
        
     </footer>
     </body>
