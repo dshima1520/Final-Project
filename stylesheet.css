@@ -3,7 +3,7 @@ body {
     font-style: normal;
     font-weight: normal;
     background-color: #fff9ea;
-    background-image: url("/Images/15276013_5570862.svg");
+    background-image: url(/Images/15276013_5570862.svg);
     background-position: center;
     background-size: 100%;
     margin: 0 15% 0;
