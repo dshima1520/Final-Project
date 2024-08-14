@@ -6,7 +6,7 @@ body {
     background-image: url("/Images/15276013_5570862.svg");
     background-position: center;
     background-size: 100%;
-    margin: 0;
+    margin: 0 15% 0;
     padding: 0;
 }
 .nav {
@@ -34,16 +34,25 @@ body {
     font-weight: bold;
     color: #14281D
 }
-        
+ 
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 53em;
+}
+
 main {
   background-color: #F1F5F2;
+  display: block;
   line-height: 1.5em;
   text-align: left;
-  max-width: 30em;
+  max-width: 50em;
   color: #14281D;
   border: double 6px #C2A878;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1em;
-  margin: 3%;
 }
 
 main img {
@@ -75,6 +84,9 @@ h2 {
   margin-top: 1em;
 }
 
+.citation {
+    font-size: small;
+}
 
 img {
     border: 1px solid #676767;
@@ -83,6 +95,12 @@ img {
 footer {
     border-top: 1px solid black;
     padding: 5px 10px 5px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64em;
+    font-size: small;
+    font-style: italic;
 }
 
 ul li {
